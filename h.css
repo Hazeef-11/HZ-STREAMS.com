@@ -379,7 +379,7 @@ li a{
 }
 
 .bu{
-    margin-left: 500px;
+    margin-left: 50%;
     color:  rgb(53,168,240);
     margin-top: 5px;
 }
@@ -392,7 +392,7 @@ li a{
 
 .bp{
     color:rgb(53,168,240) ;
-    margin-left: 500px;
+    margin-left: 50%;
     align-items: center;
     font-size:90%;
 
