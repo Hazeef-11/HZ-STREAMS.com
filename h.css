@@ -1,0 +1,409 @@
+
+body{
+    background-color: #f2efeff3;
+}
+
+.navbar{
+    background-color:  rgb(5, 144, 237);
+    font-family: calibri;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    
+
+
+.navdiv{
+    display: flex;
+     align-items: center;
+     padding-right: 15px;
+   
+
+
+}
+.hacs{
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+.logo {
+    color: rgb(0, 0, 0);font-size: 40PX; font-weight: 700;
+    margin-left: 25px;
+
+}
+
+
+
+.box{
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+
+    padding: 0px 15px;
+}
+
+.box input{
+    cursor: pointer;
+ 
+   
+}
+
+.box i{
+    margin-right: 15px;
+}
+
+.navdiv ul{
+    margin-right: 15px;
+}
+
+input{
+    width: 240px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+
+}
+
+
+
+.sb{
+    border-radius: 20px;
+}
+
+.navbar i{
+    margin-left: 10px;
+}
+
+.bt{
+    border-radius: 20px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.ha{
+    display: flex;
+    gap: 5rem;
+    height: 250px;
+    width: 90%;
+    padding-left: 70px;
+    padding-top: 150px;
+    border-radius: 50%;
+   
+}
+
+
+.ha > div{
+    flex: 2;
+
+}
+
+.ha > div:nth-child(1){
+    background: url("est.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.ha > div:nth-child(2){
+    background: url("hg.jpeg");
+    background-position:center;
+    background-size: cover;
+}
+.ha > div:nth-child(3){
+    background: url("ys.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.ha > div:hover{
+    flex: 5;
+   
+    transition-duration: 1.3s;
+    box-shadow: 
+                 0 0 5px rgb(53, 168, 240),
+                 0 0 25px rgb(53,168,240),
+                 0 0 50px rgb(53,168,240),
+                 0 0 50px rgb(53,168,240);
+
+}
+
+
+
+
+.la{
+    display: flex;
+    gap: 5rem;
+    height: 250px;
+    width: 90%;
+    padding-left: 70px;
+    padding-top: 150px;
+    border-radius: 50%;
+   
+}
+
+
+.la > div{
+    flex: 2;
+
+}
+
+
+
+
+
+.la > div:nth-child(1){
+    background: url("spt.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.la > div:nth-child(2){
+    background: url("fm.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.la > div:nth-child(3){
+    background: url("kl.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.la > div:hover{
+    flex: 5;
+   
+    transition-duration: 1.3s;
+    box-shadow: 
+                 0 0 5px rgb(53, 168, 240),
+                 0 0 25px rgb(53,168,240),
+                 0 0 50px rgb(53,168,240),
+                 0 0 50px rgb(53,168,240);
+
+}
+
+.ta{
+    display: flex;
+    gap: 5rem;
+    height: 250px;
+    width: 90%;
+    padding-left: 70px;
+    padding-top: 150px;
+    border-radius: 50%;
+   
+}
+
+
+.ta > div{
+    flex: 2;
+
+}
+
+.ta > div:nth-child(1){
+    background: url("fl.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.ta > div:nth-child(2){
+    background: url("s8.jpeg");
+    background-position:center;
+    background-size: cover;
+}
+.ta > div:nth-child(3){
+    background: url("tsk.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.ta > div:hover{
+    flex: 5;
+   
+    transition-duration: 1.3s;
+    box-shadow: 
+                 0 0 5px rgb(53, 168, 240),
+                 0 0 25px rgb(53,168,240),
+                 0 0 50px rgb(53,168,240),
+                 0 0 50px rgb(53,168,240);
+
+}
+
+
+.ua{
+    display: flex;
+    gap: 5rem;
+    height: 250px;
+    width: 90%;
+    padding-left: 70px;
+    padding-top: 150px;
+    border-radius: 50%;
+   
+}
+
+
+.ua > div{
+    flex: 2;
+
+}
+
+
+
+
+
+.ua > div:nth-child(1){
+    background: url("s2w.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.ua > div:nth-child(2){
+    background: url("is.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.ua > div:nth-child(3){
+    background: url("ss.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.ua > div:hover{
+    flex: 5;
+   
+    transition-duration: 1.3s;
+    box-shadow: 
+                 0 0 5px rgb(53, 168, 240),
+                 0 0 25px rgb(53,168,240),
+                 0 0 50px rgb(53,168,240),
+                 0 0 50px rgb(53,168,240);
+
+}
+
+
+
+
+
+.si{
+    
+   border-radius: 50px;
+   border-style: solid;
+   border-color:rgb(53, 168, 240);
+   border-width: 4px;
+   box-shadow:  0 0 15px rgb(0, 157, 255),
+   0 0 1px rgb(53, 168, 240);
+   
+   
+}
+
+.si:hover{
+    cursor: pointer;
+}
+
+
+
+.ti{
+    border-radius: 50px;
+   border-style: solid;
+   border-color: rgb(53, 168, 240) ;
+   border-width: 4px;
+   box-shadow:  0 0 15px rgb(0, 157, 255),
+   0 0 15px rgb(53, 168, 240);
+   
+}
+
+
+.m{
+    margin: 38%;
+    margin-top: 215px;
+    background-color: rgb(53, 168, 240);
+    
+
+   
+   
+}
+
+.m:hover{
+    
+    box-shadow:  0 0 0px rgb(53, 168, 240),
+                 0 0 0px rgb(53,168,240),
+                 0 0 20px rgb(53,168,240),
+                 0 0 20px rgb(53,168,240);
+}
+
+.pp{
+    padding-top: 30px;
+    height: 30px;
+    
+}
+ 
+.pi{
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+}
+
+.ci{
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 380px;
+
+}
+
+.fb{
+   margin-top: -70px;
+}
+
+.bo{
+    background-color: black;
+    border-style: solid;
+    border-color:rgb(53,168,240) ;
+    border-width: 5px;
+   margin-top: 150px;
+}
+
+.bu{
+    margin-left: 500px;
+    color:  rgb(53,168,240);
+    margin-top: 5px;
+}
+
+.bv{
+    color:rgb(53,168,240) ;
+    font-size:90%;
+    
+}
+
+.bp{
+    color:rgb(53,168,240) ;
+    margin-left: 500px;
+    align-items: center;
+    font-size:90%;
+
+}
+
+
+.bi{
+    background-color: black;
+    border-style: solid;
+    border-color:rgb(53,168,240) ;
+    border-width: 5px;
+   margin-top: 70px;
+   
+}
